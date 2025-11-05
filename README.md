@@ -9,6 +9,27 @@
 
 ___
 
+## Quick Start
+
+This repository is a Hardhat-based boilerplate for Recycling Credit RWAs. To get started and scaffold your own project from this template, follow these steps:
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/ecolab-web3/recyclingcredits-rwa-solidity.git
+    cd recyclingcredits-rwa-solidity
+    ```
+2.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+3.  **Run the setup command:**
+    ```sh
+    npx hardhat setup
+    ```
+This interactive script will configure the project for you by generating a ready-to-use deployment script.
+
+___
+
 ## About The Project
 
 This repository contains a smart contract prototype that tokenizes **Recycling Credits** as **Real World Assets (RWA)** on the blockchain, bringing transparency, auditability, and liquidity to the circular economy.
@@ -94,6 +115,22 @@ To automate and decentralize the proof verification process, an oracle could be 
 ### 4. Undergo a Professional Security Audit
 
 Before any mainnet deployment, a full audit by a reputable third-party security firm is essential to ensure the safety of the system.
+
+___
+
+## Ecosystem Recognition
+
+E-co.lab is a recognized participant in the **[Avalanche Retro9000](https://retro9000.avax.network/)** program, a retroactive public goods funding initiative by the Avalanche Foundation. Our project has been approved for the "L1s & Infrastructure Tooling" round and is currently live for community voting by participants in the Avalanche ecosystem.
+
+You can view our official submission and support our mission here: **[E-co.lab on Retro9000](https://retro9000.avax.network/discover-builders/cmebmfjtw02g5103tb8aalzvi)**
+
+___
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Please feel free to fork the repo and create a pull request, or open an issue with the tag "enhancement".
 
 ---
 
