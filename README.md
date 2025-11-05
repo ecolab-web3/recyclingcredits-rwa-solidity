@@ -11,11 +11,32 @@ If you find our work valuable, please consider giving us a star on GitHub!
 
 ___
 
+## Quick Start
+
+This repository is a Hardhat-based boilerplate for Recycling Credit RWAs. To get started and scaffold your own project from this template, follow these steps:
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/ecolab-web3/recyclingcredits-rwa-solidity.git
+    cd recyclingcredits-rwa-solidity
+    ```
+2.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+3.  **Run the setup command:**
+    ```sh
+    npx hardhat setup
+    ```
+This interactive script will configure the project for you by generating a ready-to-use deployment script.
+
+___
+
 ## Official E-co.lab Links
 
 *   **Official Website:** [ecolab-web3.github.io](https://ecolab-web3.github.io/)
 *   **Whitepaper:** [e-co-lab.gitbook.io/whitepaper](https://e-co-lab.gitbook.io/whitepaper)
-*   **Discord Community:** [discord.gg/Q6BNyUDNtm](https://discord.gg/Q6BNyUDNtm)
+*   **Discord Community:** [discord.gg/mrSuw8AfjC](https://discord.gg/mrSuw8AfjC)
 *   **Twitter:** [x.com/ecolab_web3](https://x.com/ecolab_web3)
 
 ___
