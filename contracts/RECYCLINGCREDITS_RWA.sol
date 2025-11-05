@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
 /**
- * @title RecyclingCredit
+ * @title RecyclingCredits
  * @author E-co.lab Dev Team
  * @notice A contract to create, manage, and retire Recycling Credits tokenized as NFTs (RWA).
  * Each NFT represents a proven amount of recycled material.
