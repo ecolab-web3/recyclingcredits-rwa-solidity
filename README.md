@@ -9,7 +9,7 @@ If you find our work valuable, please consider giving us a star on GitHub!
 ![Solidity Version](https://img.shields.io/badge/Solidity-0.8.20-yellow.svg)
 ![Framework](https://img.shields.io/badge/Framework-Hardhat-purple.svg)
 
-___
+---
 
 ## Quick Start
 
@@ -30,7 +30,7 @@ This repository is a Hardhat-based boilerplate for Recycling Credit RWAs. To get
     ```
 This interactive script will configure the project for you by generating a ready-to-use deployment script.
 
-___
+---
 
 ## Official E-co.lab Links
 
@@ -39,7 +39,7 @@ ___
 *   **Discord Community:** [discord.gg/mrSuw8AfjC](https://discord.gg/mrSuw8AfjC)
 *   **Twitter:** [x.com/ecolab_web3](https://x.com/ecolab_web3)
 
-___
+---
 
 ## About The Project
 
@@ -47,7 +47,7 @@ This repository contains a smart contract prototype that tokenizes **Recycling C
 
 This project has been successfully migrated to a professional **Hardhat environment**, rigorously tested with **100% code coverage**, deployed, and verified on the **Avalanche Fuji Testnet**.
 
-___
+---
 
 ## Live Interaction & dApps
 
@@ -127,7 +127,7 @@ To automate and decentralize the proof verification process, an oracle could be 
 
 Before any mainnet deployment, a full audit by a reputable third-party security firm is essential to ensure the safety of the system.
 
-___
+---
 
 ## Ecosystem Recognition
 
@@ -135,7 +135,7 @@ E-co.lab is a recognized participant in the **[Avalanche Retro9000](https://retr
 
 You can view our official submission and support our mission here: **[E-co.lab on Retro9000](https://retro9000.avax.network/discover-builders/cmebmfjtw02g5103tb8aalzvi)**
 
-___
+---
 
 ## Contributing
 
