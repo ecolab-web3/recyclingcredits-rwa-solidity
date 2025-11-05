@@ -1,5 +1,7 @@
 # RWA for Recycling Credits: A Solidity Smart Contract Prototype
 
+If you find our work valuable, please consider giving us a star on GitHub!
+
 ![Language](https://img.shields.io/badge/Language-Solidity-orange)
 ![Blockchain](https://img.shields.io/badge/Blockchain-Avalanche_Fuji-red)
 ![Verified Contract](https://img.shields.io/badge/Contract-Verified-green)
@@ -9,24 +11,12 @@
 
 ___
 
-## Quick Start
+## Official E-co.lab Links
 
-This repository is a Hardhat-based boilerplate for Recycling Credit RWAs. To get started and scaffold your own project from this template, follow these steps:
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/ecolab-web3/recyclingcredits-rwa-solidity.git
-    cd recyclingcredits-rwa-solidity
-    ```
-2.  **Install dependencies:**
-    ```sh
-    npm install
-    ```
-3.  **Run the setup command:**
-    ```sh
-    npx hardhat setup
-    ```
-This interactive script will configure the project for you by generating a ready-to-use deployment script.
+*   **Official Website:** [ecolab-web3.github.io](https://ecolab-web3.github.io/)
+*   **Whitepaper:** [e-co-lab.gitbook.io/whitepaper](https://e-co-lab.gitbook.io/whitepaper)
+*   **Discord Community:** [discord.gg/Q6BNyUDNtm](https://discord.gg/Q6BNyUDNtm)
+*   **Twitter:** [x.com/ecolab_web3](https://x.com/ecolab_web3)
 
 ___
 
@@ -38,11 +28,11 @@ This project has been successfully migrated to a professional **Hardhat environm
 
 ___
 
-## Live Interaction & DApps
+## Live Interaction & dApps
 
 Please make sure your wallet (e.g., MetaMask) is connected to the **Avalanche Fuji Testnet** to interact with the project components.
 
-### DApp Prototypes
+### dApp Prototypes
 
 *   **Recyclers Portal (Proof Generation):** This tool is for cooperatives and originators to generate the necessary data and proof hash for certification.
     *   **[➡️ Access the Recyclers Portal (english version)](https://ecolab-web3.github.io/recyclingcredits-rwa-solidity/recyclers-en.html)**
@@ -101,7 +91,7 @@ This prototype is a functional foundation. For a production-ready project, the n
 
 To allow for future feature additions or bug fixes without forcing users to migrate to a new contract, the next logical step is to implement an upgradable contract using OpenZeppelin's Upgrades Contracts.
 
-### 2. Build a Full DApp Ecosystem: Marketplace and Portals
+### 2. Build a Full dApp Ecosystem: Marketplace and Portals
 
 A production version requires dedicated interfaces for each user type, building upon the existing prototypes:
 *   **Marketplace Creation:** A frontend (e.g., using React, Vue) that serves as a marketplace where companies can browse available credits and purchase them directly.
