@@ -15,20 +15,28 @@ If you find our work valuable, please consider giving us a star on GitHub!
 
 This repository is a Hardhat-based boilerplate for Recycling Credit RWAs. To get started and scaffold your own project from this template, follow these steps:
 
-1.  **Clone the repository:**
+1.  **Clone & Install:**
     ```sh
     git clone https://github.com/ecolab-web3/recyclingcredits-rwa-solidity.git
     cd recyclingcredits-rwa-solidity
-    ```
-2.  **Install dependencies:**
-    ```sh
     npm install
     ```
-3.  **Run the setup command:**
+2.  **Configure Your Environment:**
+    *   This project requires an `.env` file with a private key and RPC URL.
+    *   **Rename** the `.env.example` file in the root directory to **`.env`**.
+    *   Open the new `.env` file and **add your test wallet's private key**.
+
+3.  **Understand the Contract (Recommended):**
+    *   Before deploying, take a moment to **read the rest of this README and browse the `contracts/` folder**.
+    *   Understanding the smart contract's logic, its functions, and its purpose is a critical step for any developer.
+
+4.  **Deploy the Contract:**
+    *   Fund your test wallet with some Fuji AVAX from a faucet.
+    *   Run the deployment script:
     ```sh
-    npx hardhat setup
+    npx hardhat run scripts/deploy.ts --network fuji
     ```
-This interactive script will configure the project for you by generating a ready-to-use deployment script.
+The script will deploy the contract and print its address to your terminal.
 
 ---
 
